@@ -75,5 +75,5 @@ fabric-ca-client identity list -u https://localhost:8054 --tls.certfiles ${PWD}/
 
 echo "Compilation et empaquetage du Smart Contract..."
 cd ../asset-transfer-iot/chaincode-java
-gradle build
+./gradlew build
 
