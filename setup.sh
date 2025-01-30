@@ -74,6 +74,5 @@ echo "Liste des identités enregistrées dans la CA d'Org2..."
 fabric-ca-client identity list -u https://localhost:8054 --tls.certfiles ${PWD}/organizations/fabric-ca/org2/tls-cert.pem
 
 echo "Compilation et empaquetage du Smart Contract..."
-cd ../asset-transfer-iot/chaincode-java
-./gradlew build
+
 
